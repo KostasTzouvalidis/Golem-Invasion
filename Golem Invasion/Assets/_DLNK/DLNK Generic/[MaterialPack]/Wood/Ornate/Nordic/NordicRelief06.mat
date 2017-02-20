@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: NordicRelief06
+  m_Shader: {fileID: 4800000, guid: e3b8c0fcf9effc945b2eec1a84a0cf7b, type: 3}
+  m_ShaderKeywords:
+  - _SPECULARIBL_ON
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: f233c686baffac74cbcea62a451c8f0a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 43a6a68eb76bc4c479105db74a0bd67f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _IBLMap
+        second:
+          m_Texture: {fileID: 8900000, guid: a596436b21c6d484bb9b3b6385e3e666, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: e2758f0fd14022540b8e8731caf025ae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 4fe84366b60520b419a9c6b843edcfcf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .0958859697
+      data:
+        first:
+          name: _SpecularIBL
+        second: 1
+      data:
+        first:
+          name: _Diffusepower
+        second: 1
+      data:
+        first:
+          name: _AOPower
+        second: 5
+      data:
+        first:
+          name: _SpecularPower
+        second: 1
+      data:
+        first:
+          name: _IBLPower
+        second: 5
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _RimPower
+        second: 1
+      data:
+        first:
+          name: _LightWrapPower
+        second: 2
+      data:
+        first:
+          name: _LightWrap
+        second: 0
+      data:
+        first:
+          name: _RimFresnel
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _RimLightColor
+        second: {r: .904411793, g: .645058393, b: .645058393, a: 1}
+      data:
+        first:
+          name: _LightWrapColor
+        second: {r: .5, g: .5, b: .5, a: 1}

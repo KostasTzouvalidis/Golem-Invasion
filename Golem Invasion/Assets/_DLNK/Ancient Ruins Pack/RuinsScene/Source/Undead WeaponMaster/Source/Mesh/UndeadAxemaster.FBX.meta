@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: 54f1ac2889137fd43b8243780ef9603f
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: AxemasterMesh
+    100002: AxemasterRope
+    100004: //RootNode
+    100006: UndeadAxemaster
+    100008: UndeadAxemasterCollarbone
+    100010: UndeadAxemasterHead
+    100012: UndeadAxemasterLArm1
+    100014: UndeadAxemasterLArm2
+    100016: UndeadAxemasterLArmPalm
+    100018: UndeadAxemasterLArmShoulder
+    100020: UndeadAxemasterLFingers1
+    100022: UndeadAxemasterLFingers2
+    100024: UndeadAxemasterLLeg1
+    100026: UndeadAxemasterLLeg2
+    100028: UndeadAxemasterLLegAnkle
+    100030: UndeadAxemasterLLegPlatform
+    100032: UndeadAxemasterLThumb1
+    100034: UndeadAxemasterLThumb2
+    100036: UndeadAxemasterNeck
+    100038: UndeadAxemasterPelvis
+    100040: UndeadAxemasterRArm1
+    100042: UndeadAxemasterRArm2
+    100044: UndeadAxemasterRArmPalm
+    100046: UndeadAxemasterRArmShoulder
+    100048: UndeadAxemasterRFingers1
+    100050: UndeadAxemasterRFingers2
+    100052: UndeadAxemasterRLeg1
+    100054: UndeadAxemasterRLeg2
+    100056: UndeadAxemasterRLegAnkle
+    100058: UndeadAxemasterRLegPlatform
+    100060: UndeadAxemasterRThumb1
+    100062: UndeadAxemasterRThumb2
+    100064: UndeadAxemasterSpineLowAbs
+    100066: UndeadAxemasterSpineLowerchest
+    100068: UndeadAxemasterSpineMidAbs
+    100070: UndeadAxemasterSpineUpAbs
+    100072: UndeadAxemasterSpineUpperChest
+    100074: Axemaster RopeCloth
+    400000: AxemasterMesh
+    400002: AxemasterRope
+    400004: //RootNode
+    400006: UndeadAxemaster
+    400008: UndeadAxemasterCollarbone
+    400010: UndeadAxemasterHead
+    400012: UndeadAxemasterLArm1
+    400014: UndeadAxemasterLArm2
+    400016: UndeadAxemasterLArmPalm
+    400018: UndeadAxemasterLArmShoulder
+    400020: UndeadAxemasterLFingers1
+    400022: UndeadAxemasterLFingers2
+    400024: UndeadAxemasterLLeg1
+    400026: UndeadAxemasterLLeg2
+    400028: UndeadAxemasterLLegAnkle
+    400030: UndeadAxemasterLLegPlatform
+    400032: UndeadAxemasterLThumb1
+    400034: UndeadAxemasterLThumb2
+    400036: UndeadAxemasterNeck
+    400038: UndeadAxemasterPelvis
+    400040: UndeadAxemasterRArm1
+    400042: UndeadAxemasterRArm2
+    400044: UndeadAxemasterRArmPalm
+    400046: UndeadAxemasterRArmShoulder
+    400048: UndeadAxemasterRFingers1
+    400050: UndeadAxemasterRFingers2
+    400052: UndeadAxemasterRLeg1
+    400054: UndeadAxemasterRLeg2
+    400056: UndeadAxemasterRLegAnkle
+    400058: UndeadAxemasterRLegPlatform
+    400060: UndeadAxemasterRThumb1
+    400062: UndeadAxemasterRThumb2
+    400064: UndeadAxemasterSpineLowAbs
+    400066: UndeadAxemasterSpineLowerchest
+    400068: UndeadAxemasterSpineMidAbs
+    400070: UndeadAxemasterSpineUpAbs
+    400072: UndeadAxemasterSpineUpperChest
+    400074: Axemaster RopeCloth
+    2300000: Axemaster RopeCloth
+    3300000: Axemaster RopeCloth
+    4300000: AxemasterMesh
+    4300002: AxemasterRope
+    4300004: Axemaster RopeCloth
+    7400000: Idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: AxemasterMesh
+    13700002: AxemasterRope
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AxemasterMesh
+        weight: 0
+      - path: AxemasterRope
+        weight: 0
+      - path: UndeadAxemaster
+        weight: 0
+      - path: UndeadAxemasterLLegPlatform
+        weight: 0
+      - path: UndeadAxemasterPelvis
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterLLeg1
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterLLeg1/UndeadAxemasterLLeg2
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterLLeg1/UndeadAxemasterLLeg2/UndeadAxemasterLLegAnkle
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterRLeg1
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterRLeg1/UndeadAxemasterRLeg2
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterRLeg1/UndeadAxemasterRLeg2/UndeadAxemasterRLegAnkle
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterLArmShoulder
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterLArmShoulder/UndeadAxemasterLArm1
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterLArmShoulder/UndeadAxemasterLArm1/UndeadAxemasterLArm2
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterLArmShoulder/UndeadAxemasterLArm1/UndeadAxemasterLArm2/UndeadAxemasterLArmPalm
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterLArmShoulder/UndeadAxemasterLArm1/UndeadAxemasterLArm2/UndeadAxemasterLArmPalm/UndeadAxemasterLFingers1
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterLArmShoulder/UndeadAxemasterLArm1/UndeadAxemasterLArm2/UndeadAxemasterLArmPalm/UndeadAxemasterLFingers1/UndeadAxemasterLFingers2
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterLArmShoulder/UndeadAxemasterLArm1/UndeadAxemasterLArm2/UndeadAxemasterLArmPalm/UndeadAxemasterLThumb1
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterLArmShoulder/UndeadAxemasterLArm1/UndeadAxemasterLArm2/UndeadAxemasterLArmPalm/UndeadAxemasterLThumb1/UndeadAxemasterLThumb2
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterNeck
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterNeck/UndeadAxemasterHead
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterRArmShoulder
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterRArmShoulder/UndeadAxemasterRArm1
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterRArmShoulder/UndeadAxemasterRArm1/UndeadAxemasterRArm2
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterRArmShoulder/UndeadAxemasterRArm1/UndeadAxemasterRArm2/UndeadAxemasterRArmPalm
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterRArmShoulder/UndeadAxemasterRArm1/UndeadAxemasterRArm2/UndeadAxemasterRArmPalm/UndeadAxemasterRFingers1
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterRArmShoulder/UndeadAxemasterRArm1/UndeadAxemasterRArm2/UndeadAxemasterRArmPalm/UndeadAxemasterRFingers1/UndeadAxemasterRFingers2
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterRArmShoulder/UndeadAxemasterRArm1/UndeadAxemasterRArm2/UndeadAxemasterRArmPalm/UndeadAxemasterRThumb1
+        weight: 1
+      - path: UndeadAxemasterPelvis/UndeadAxemasterSpineLowAbs/UndeadAxemasterSpineMidAbs/UndeadAxemasterSpineUpAbs/UndeadAxemasterSpineLowerchest/UndeadAxemasterSpineUpperChest/UndeadAxemasterCollarbone/UndeadAxemasterRArmShoulder/UndeadAxemasterRArm1/UndeadAxemasterRArm2/UndeadAxemasterRArmPalm/UndeadAxemasterRThumb1/UndeadAxemasterRThumb2
+        weight: 1
+      - path: UndeadAxemasterRLegPlatform
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

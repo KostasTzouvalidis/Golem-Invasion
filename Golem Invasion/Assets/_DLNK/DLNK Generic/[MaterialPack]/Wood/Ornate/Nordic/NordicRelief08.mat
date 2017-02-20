@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: NordicRelief08
+  m_Shader: {fileID: 4800000, guid: d1b4e2a3ceb578347b2b5b9401d0bf64, type: 3}
+  m_ShaderKeywords:
+  - _SPECULARIBL_ON
+  - _LIGHTWRAP_ON
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: d110811d776e6074990e30a1e6a1fd03, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: c633895afafafde4ebc6770a478344ca, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _IBLMap
+        second:
+          m_Texture: {fileID: 8900000, guid: f466cf7415226e046b096197eb7341aa, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 1f3e9c939abf4d54eb9c39e68cf33ea9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 19aea7d981ffcd44e8dee2e220a76945, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 2800000, guid: d110811d776e6074990e30a1e6a1fd03, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Detail
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 19aea7d981ffcd44e8dee2e220a76945, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .132369369
+      data:
+        first:
+          name: _SpecularIBL
+        second: 1
+      data:
+        first:
+          name: _Diffusepower
+        second: 1
+      data:
+        first:
+          name: _AOPower
+        second: 4
+      data:
+        first:
+          name: _SpecularPower
+        second: 1
+      data:
+        first:
+          name: _IBLPower
+        second: 2
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _Parallax
+        second: .0299999993
+      data:
+        first:
+          name: _Quality
+        second: 20
+      data:
+        first:
+          name: _RimPower
+        second: 1
+      data:
+        first:
+          name: _LightWrapPower
+        second: 2
+      data:
+        first:
+          name: _LightWrap
+        second: 1
+      data:
+        first:
+          name: _RimFresnel
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .5, g: .434330642, b: .363970578, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _RimLightColor
+        second: {r: .661764741, g: .471993953, b: .471993953, a: 1}
+      data:
+        first:
+          name: _LightWrapColor
+        second: {r: .485294104, g: .349697232, b: .349697232, a: 1}

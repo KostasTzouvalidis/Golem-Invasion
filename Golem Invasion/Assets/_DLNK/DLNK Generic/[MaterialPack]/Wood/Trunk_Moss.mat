@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Trunk_Moss
+  m_Shader: {fileID: 4800000, guid: c3120829ff5429c40a94b0df7ea4b59a, type: 3}
+  m_ShaderKeywords: _INVERTTOPBOTTOM_ON _LIGHTWRAP_ON _METALALPHAGLOSS_ON _NORMALMAP
+    _SPECULARIBL_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 0525891a9787e914f94bc872b29dc42a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _IBLMap
+      second:
+        m_Texture: {fileID: 8900000, guid: 522f3190ed4a3384ba9a182f6b53d4d0, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 81261ed3e2566534eb2e6466342e2db7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 47faa7bb183c51a4fa3186ed34d7d51f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 7b9003c164940824ca89de6b313c959e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SmoothnessMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TopAO
+      second:
+        m_Texture: {fileID: 2800000, guid: 4e426801d0ea0904881529727498d59a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TopBump
+      second:
+        m_Texture: {fileID: 2800000, guid: 48679a7136cb4de49862528970a4bdc3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TopDetail
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TopMetalnessTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 75b64e108bed4bb49b103786da8a9e75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TopNormal
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TopSpecTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 75b64e108bed4bb49b103786da8a9e75, type: 3}
+        m_Scale: {x: 1, y: 13}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TopTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 69dd83014f2bc044487df3d2646e3396, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AOBlendPower
+      second: 1.17
+    - first:
+        name: _AOPower
+      second: 1
+    - first:
+        name: _AffectAO
+      second: 1
+    - first:
+        name: _AmbientIBL
+      second: 1
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailAffected
+      second: 1
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DetailTiling
+      second: 1
+    - first:
+        name: _DiffuseAOMask
+      second: 0
+    - first:
+        name: _Diffusepower
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _EmissionLM
+      second: 0
+    - first:
+        name: _EmissionScaleUI
+      second: 0
+    - first:
+        name: _Fresnel
+      second: 2
+    - first:
+        name: _Glossiness
+      second: 1
+    - first:
+        name: _IBLAmbient
+      second: 0
+    - first:
+        name: _IBLPower
+      second: 1
+    - first:
+        name: _InvertAOMask
+      second: 0
+    - first:
+        name: _InvertTopBottom
+      second: 1
+    - first:
+        name: _LightWrap
+      second: 1
+    - first:
+        name: _LightWrapPower
+      second: 2
+    - first:
+        name: _MetalAlphaGloss
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Metalness
+      second: 1
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _NormalSmooth
+      second: 0
+    - first:
+        name: _OcclusionStrenght
+      second: 1
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.01
+    - first:
+        name: _Quality
+      second: 50
+    - first:
+        name: _RimFresnel
+      second: 1.26
+    - first:
+        name: _RimPower
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.4316177
+    - first:
+        name: _Smoothness
+      second: 0.5
+    - first:
+        name: _SpecularIBL
+      second: 1
+    - first:
+        name: _SpecularPower
+      second: 0.34
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _TopAOPower
+      second: 0.39
+    - first:
+        name: _TopBottomBumpScale
+      second: 1
+    - first:
+        name: _TopBottomLevel
+      second: 0.33
+    - first:
+        name: _TopBottomMult
+      second: 1
+    - first:
+        name: _TopBottomPower
+      second: 3.5
+    - first:
+        name: _TopMetallic
+      second: 0.1
+    - first:
+        name: _TopMetalness
+      second: 1
+    - first:
+        name: _TopReliefPower
+      second: 1
+    - first:
+        name: _TopShininess
+      second: 0.60714287
+    - first:
+        name: _TopSmoothness
+      second: 0.5
+    - first:
+        name: _TopSpec
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _WorldTiling
+      second: 5
+    - first:
+        name: _ZWrite
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.64705884, g: 0.64705884, b: 0.64705884, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _EmissionColorUI
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _LightWarpTint
+      second: {r: 0.6544118, g: 0.5928201, b: 0.50043255, a: 1}
+    - first:
+        name: _LightWrapColor
+      second: {r: 0.9191176, g: 0.7636786, b: 0.7636786, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0.38235295, g: 0.34202364, b: 0.23615918, a: 1}
+    - first:
+        name: _RimLightColor
+      second: {r: 0.9852941, g: 0.97660035, b: 0.9635597, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.72794116, g: 0.6953093, b: 0.6369485, a: 1}
+    - first:
+        name: _TopSpecColor
+      second: {r: 0.50640434, g: 0.8602941, b: 0.36689013, a: 1}
+    - first:
+        name: _TopTint
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _UpColor
+      second: {r: 0.5808823, g: 0.5808823, b: 0.5808823, a: 1}

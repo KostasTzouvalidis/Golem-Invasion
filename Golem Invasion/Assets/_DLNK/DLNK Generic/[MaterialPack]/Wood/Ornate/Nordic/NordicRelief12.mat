@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: NordicRelief12
+  m_Shader: {fileID: 4800000, guid: 7824d3ad82e98484fa8cb57869e71b50, type: 3}
+  m_ShaderKeywords:
+  - _SPECULARIBL_ON
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 82d063866f1f4924d9486ed56d449d43, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 4a1d36229ac776243a6f5e71ff8f177a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _IBLMap
+        second:
+          m_Texture: {fileID: 8900000, guid: a596436b21c6d484bb9b3b6385e3e666, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: f125934d978271c449e24508c1f0aa59, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 2a8c4332c08ed0847b3c82eadc746b7e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 7bdc4d69e8367514dbbf053193fe96e5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Occlusion
+        second:
+          m_Texture: {fileID: 2800000, guid: f125934d978271c449e24508c1f0aa59, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlossMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 2a8c4332c08ed0847b3c82eadc746b7e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .373980612
+      data:
+        first:
+          name: _SpecularIBL
+        second: 1
+      data:
+        first:
+          name: _Diffusepower
+        second: 1
+      data:
+        first:
+          name: _AOPower
+        second: 7.03999996
+      data:
+        first:
+          name: _SpecularPower
+        second: 1
+      data:
+        first:
+          name: _IBLPower
+        second: 4
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _Parallax
+        second: .0399999991
+      data:
+        first:
+          name: _Quality
+        second: 120
+      data:
+        first:
+          name: _RimPower
+        second: .939999998
+      data:
+        first:
+          name: _LightWrapPower
+        second: 4.17999983
+      data:
+        first:
+          name: _LightWrap
+        second: 0
+      data:
+        first:
+          name: _RimFresnel
+        second: 1.88
+      data:
+        first:
+          name: _Depth
+        second: .125
+      data:
+        first:
+          name: _DetailTiling
+        second: 4
+      data:
+        first:
+          name: _DetailMix
+        second: .553571403
+      data:
+        first:
+          name: _MainTiling
+        second: .589999974
+      data:
+        first:
+          name: _NormalDetail
+        second: 0
+      data:
+        first:
+          name: _SpecDetail
+        second: 0
+      data:
+        first:
+          name: _DetailColor
+        second: 0
+      data:
+        first:
+          name: _UseDetailMask
+        second: 0
+      data:
+        first:
+          name: _CustomDetailTex
+        second: 0
+      data:
+        first:
+          name: _CustomDetailNormal
+        second: 0
+      data:
+        first:
+          name: _DetailSpec
+        second: 1
+      data:
+        first:
+          name: _Tessellation
+        second: 70
+      data:
+        first:
+          name: _VectorOffset
+        second: .0599999987
+      data:
+        first:
+          name: _HeightSmooth
+        second: 0
+      data:
+        first:
+          name: _SelfDetail
+        second: 0
+      data:
+        first:
+          name: _DetailASpec
+        second: 1
+      data:
+        first:
+          name: _UseDetailTex
+        second: 0
+      data:
+        first:
+          name: _UseDetailNormal
+        second: 0
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 0
+      data:
+        first:
+          name: _ParallaxDirection
+        second: .464285702
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _RimLightColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _LightWrapColor
+        second: {r: .5, g: .5, b: .5, a: 1}

@@ -1,0 +1,315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WoodRough01
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _DETAILCOLOR_ON _DETAILSPEC_ON _LIGHTWRAP_ON _METALLICGLOSSMAP
+    _NORMALDETAIL_ON _NORMALMAP _PARALLAXMAP _SELFDETAIL_ON _SPECDETAIL_ON _SPECULARIBL_ON
+    _USEDETAILMASK_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _AOMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 28dea33619812704e97f5b2220787c52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _AmbientOcclusion
+      second:
+        m_Texture: {fileID: 2800000, guid: 23f6135388b0c5c43b91cbc1963876cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 324b6085f0b83164b98c56dc79a09296, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Detail
+      second:
+        m_Texture: {fileID: 2800000, guid: a6723f641cd87c543b0c06c93c51f550, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 538130787c9b37c42ac6968ebe9fbe2a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _IBLMap
+      second:
+        m_Texture: {fileID: 8900000, guid: f466cf7415226e046b096197eb7341aa, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: fad67ccb95ffc384d9fe8aaf0d4152f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 2b4c92eedf5d94542878fe4ef2f6923a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Occlusion
+      second:
+        m_Texture: {fileID: 2800000, guid: de368ae9d2e5dfb4a9adfc7db2a52923, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 2800000, guid: de368ae9d2e5dfb4a9adfc7db2a52923, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 538130787c9b37c42ac6968ebe9fbe2a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecGlossMap
+      second:
+        m_Texture: {fileID: 2800000, guid: de368ae9d2e5dfb4a9adfc7db2a52923, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecGolssMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 812dbd6b8eb289b4a829989b53369636, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ao
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_7616
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_8031
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_887
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_9924
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AOPower
+      second: 1
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _CustomDetailNormal
+      second: 0
+    - first:
+        name: _CustomDetailTex
+      second: 0
+    - first:
+        name: _CustomSpecDetail
+      second: 0
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Depth
+      second: 0.02232143
+    - first:
+        name: _DetailASpec
+      second: 1
+    - first:
+        name: _DetailColor
+      second: 1
+    - first:
+        name: _DetailMix
+      second: 0.48214284
+    - first:
+        name: _DetailNormalMapScale
+      second: 0
+    - first:
+        name: _DetailSpec
+      second: 1
+    - first:
+        name: _DetailTiling
+      second: 4
+    - first:
+        name: _Diffusepower
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _EmissionScaleUI
+      second: 0
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _HeightSmooth
+      second: 0
+    - first:
+        name: _IBLPower
+      second: 2
+    - first:
+        name: _IBLSmooth
+      second: 1.22
+    - first:
+        name: _LightWrap
+      second: 1
+    - first:
+        name: _LightWrapPower
+      second: 1
+    - first:
+        name: _MainTiling
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _NormalDetail
+      second: 1
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Quality
+      second: 50
+    - first:
+        name: _RimFresnel
+      second: 0.71
+    - first:
+        name: _RimPower
+      second: 1
+    - first:
+        name: _SelfDetail
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.071060725
+    - first:
+        name: _SpecDetail
+      second: 1
+    - first:
+        name: _SpecularIBL
+      second: 1
+    - first:
+        name: _SpecularPower
+      second: 3
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _Tessellation
+      second: 70
+    - first:
+        name: _TransmissionPower
+      second: 1.72
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _UseDetailMask
+      second: 1
+    - first:
+        name: _UseDetailNormal
+      second: 0
+    - first:
+        name: _UseDetailTex
+      second: 0
+    - first:
+        name: _VectorOffset
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 1
+    - first:
+        name: _node_6266
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.50735295, g: 0.50735295, b: 0.50735295, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _EmissionColorUI
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _LightWrapColor
+      second: {r: 0.83823526, g: 0.60495764, b: 0.53622407, a: 1}
+    - first:
+        name: _OcclusionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _RimLightColor
+      second: {r: 0.6911765, g: 0.6573186, b: 0.5844507, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.7794118, g: 0.7152249, b: 0.61894464, a: 1}
+    - first:
+        name: _TransmissionColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}

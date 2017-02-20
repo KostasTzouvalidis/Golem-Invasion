@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WaterRef
+  m_Shader: {fileID: 4800000, guid: 0e748c7af92c44e4895b07bca5ff42bc, type: 3}
+  m_ShaderKeywords: _SPECULARIBL_ON _WORLDUV_ON
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 8875f803b2d1b3742837c4450eff8fbc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DiffuseSide
+      second:
+        m_Texture: {fileID: 2800000, guid: 19478835b394f834fa4bcd1bcf28e5d4, type: 3}
+        m_Scale: {x: 60, y: 60}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DiffuseUp
+      second:
+        m_Texture: {fileID: 2800000, guid: 19478835b394f834fa4bcd1bcf28e5d4, type: 3}
+        m_Scale: {x: 10, y: 30}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _IBLMap
+      second:
+        m_Texture: {fileID: 8900000, guid: 2f821dbbb5e173e468876ef2e4eaa490, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 19478835b394f834fa4bcd1bcf28e5d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise
+      second:
+        m_Texture: {fileID: 2800000, guid: 3c2350f6b56610444b69e99c29ee60ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalSide
+      second:
+        m_Texture: {fileID: 2800000, guid: 8875f803b2d1b3742837c4450eff8fbc, type: 3}
+        m_Scale: {x: 60, y: 60}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalUp
+      second:
+        m_Texture: {fileID: 2800000, guid: 8875f803b2d1b3742837c4450eff8fbc, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 0f9e0eccaa7c11f47ba60bd0bfcdf6eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_1231
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_4149
+      second:
+        m_Texture: {fileID: 2800000, guid: 8875f803b2d1b3742837c4450eff8fbc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_5886
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _1stVelocity
+      second: 1
+    - first:
+        name: _2ndVelocity
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DepthOP
+      second: 0.1
+    - first:
+        name: _Detail
+      second: -0.32
+    - first:
+        name: _FoamPower
+      second: 4.4
+    - first:
+        name: _FresnelPower
+      second: 4.41
+    - first:
+        name: _FresnelRim
+      second: 0.96
+    - first:
+        name: _Gloss
+      second: 0.459
+    - first:
+        name: _IBLAmbient
+      second: 1
+    - first:
+        name: _IBLEnable
+      second: 0
+    - first:
+        name: _IBLPower
+      second: 2
+    - first:
+        name: _InvertOpacity
+      second: 0
+    - first:
+        name: _MasterTiling
+      second: 0.16
+    - first:
+        name: _Metalness
+      second: 0
+    - first:
+        name: _NoiseTiling
+      second: 1
+    - first:
+        name: _OpacityPower
+      second: 0.09
+    - first:
+        name: _Parallax
+      second: -0.04
+    - first:
+        name: _ParallaxVelocity
+      second: 1.44
+    - first:
+        name: _Quality
+      second: 100
+    - first:
+        name: _Refraction
+      second: 0.01
+    - first:
+        name: _RefractionPower
+      second: 0
+    - first:
+        name: _SecondTiling
+      second: 3.19
+    - first:
+        name: _Shininess
+      second: 1.7022814
+    - first:
+        name: _Specular
+      second: 3
+    - first:
+        name: _SpecularIBL
+      second: 1
+    - first:
+        name: _TopDownMask
+      second: 0.8270677
+    - first:
+        name: _Trans
+      second: 3.77
+    - first:
+        name: _TransparentValue
+      second: 1.98
+    - first:
+        name: _UpMoveRange
+      second: 1
+    - first:
+        name: _UpVelocity
+      second: 0.02
+    - first:
+        name: _UpmoveMix
+      second: 0.06
+    - first:
+        name: _Velocitymain
+      second: 1.78
+    - first:
+        name: _Velocitymove
+      second: 0.77
+    - first:
+        name: _Velocitynoise
+      second: 2.12
+    - first:
+        name: _Velocitysecond
+      second: 1.2
+    - first:
+        name: _WorldUV
+      second: 1
+    - first:
+        name: _node_8712
+      second: 18.45
+    - first:
+        name: _noiseseed
+      second: -6.08
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _FoamColor
+      second: {r: 0.4299308, g: 0.5029979, b: 0.52205884, a: 1}
+    - first:
+        name: _WaterColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _node_3536
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.3254902}

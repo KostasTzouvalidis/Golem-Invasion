@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BronzeBase00
+  m_Shader: {fileID: 4800000, guid: 0ed7b56105b4abb45980d19381b88f48, type: 3}
+  m_ShaderKeywords:
+  - _DETAILCOLOR_ON
+  - _SPECDETAIL_ON
+  - _NORMALDETAIL_ON
+  - _SPECULARIBL_ON
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 725766ad9bf09874494879dab051c513, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 8c7be88cba61a654fa5ef5335673547b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _IBLMap
+        second:
+          m_Texture: {fileID: 8900000, guid: a596436b21c6d484bb9b3b6385e3e666, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 6e3325683270d644b86fa77f50b61bea, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 6e3325683270d644b86fa77f50b61bea, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .335059941
+      data:
+        first:
+          name: _SpecularIBL
+        second: 1
+      data:
+        first:
+          name: _Diffusepower
+        second: 1
+      data:
+        first:
+          name: _AOPower
+        second: 2
+      data:
+        first:
+          name: _SpecularPower
+        second: 2
+      data:
+        first:
+          name: _IBLPower
+        second: 3
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _RimPower
+        second: .5
+      data:
+        first:
+          name: _LightWrapPower
+        second: 2
+      data:
+        first:
+          name: _LightWrap
+        second: 0
+      data:
+        first:
+          name: _RimFresnel
+        second: 1.03999996
+      data:
+        first:
+          name: _DetailTiling
+        second: 4
+      data:
+        first:
+          name: _DetailMix
+        second: .24999997
+      data:
+        first:
+          name: _MainTiling
+        second: 1
+      data:
+        first:
+          name: _NormalDetail
+        second: .5
+      data:
+        first:
+          name: _SpecDetail
+        second: 1
+      data:
+        first:
+          name: _DetailColor
+        second: .129411802
+      data:
+        first:
+          name: _UseDetailMask
+        second: 0
+      data:
+        first:
+          name: _CustomDetailTex
+        second: 0
+      data:
+        first:
+          name: _CustomDetailNormal
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .875, g: .591911733, b: .591911733, a: 1}
+      data:
+        first:
+          name: _RimLightColor
+        second: {r: .580882311, g: .378692836, b: .247729212, a: 1}
+      data:
+        first:
+          name: _LightWrapColor
+        second: {r: .573529422, g: .282547593, b: .282547593, a: 1}
